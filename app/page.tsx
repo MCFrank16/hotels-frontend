@@ -3,7 +3,7 @@ import { Listing } from '@/components'
 
 const Home = () => {
   return (
-    <main className="flex-grow">
+    <main className="flex-grow" data-testid="mainComponent">
       <Listing />
     </main>
   )
